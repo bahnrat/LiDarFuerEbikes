@@ -65,6 +65,11 @@ Installiere die folgenden Bibliotheken über den Bibliotheksverwalter (`Strg + U
 3. Verbinde das Board per USB (Hinweis: Der serielle Starttext verpufft beim Booten über den Native USB-CDC manchmal, die Funktionalität ist jedoch voll gegeben).
 4. Klicke auf **Upload**.
 
+### 3. Leiterplatte bestellen
+Mit "lidar_ebike_v1.lay6" können Sie eine fertige Leiterplatte bestellen. Beim Aufsetzen des ESP32 zeigt der USB-Anschluß zu Ihnen. Die oberen zwei Anschlussleisten zeigen von Ihnen weg, an die 7-polige Leiste kommt das Display. An die PINS 1 bis 3 kommt das Recom, der 5V-Anschluß muss dabei an PIN 1. An die PINS 4 bis 7 kommen Leiterplattenklemmen (Pin 4 ist 12VDC+, Pin 5 ist GND der 12V-Stromversorgung. An Pin 6 kommt der RX-Pin des LiDar (optional, hier nicht in Benutzung). An Pin 7 kommt TX des LiDar).
+
+Zum Anschauen des Layouts können Sie den [Sprintlayout-Viewer](https://www.abacom-online.de/updates/Sprint-Layout60_Viewer(Setup).exe) nutzen. Zum Bearbeiten benötigen Sie das [Sprintlayout-Programme](https://www.electronic-software-shop.com/elektronik-software/sprint-layout-60.html). Oder Sie nutzen die Gerberfiles (ungetestet).
+ 
 ---
 
 ## 🔮 Ausblick: Phase 2 (Automobil-Erweiterung)

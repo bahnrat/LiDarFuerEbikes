@@ -50,7 +50,7 @@ Das Layout wurde für eine optimale, kreuzungsfreie Leitungsführung auf zwei La
 | **LiDar** | RX | none | 6 |
 | **LiDar** | TX | none | 7 |
 | **LiDar** | 12V+ | none | 4 |
-| **LiDar | 12V- | none | 5 |
+| **LiDar** | 12V- | none | 5 |
 
 ---
 

@@ -32,8 +32,8 @@ Das Layout wurde für eine optimale, kreuzungsfreie Leitungsführung auf zwei La
 
 | Peripherie | Pin-Name | ESP32-S2 GPIO | PIN auf Leiterplatte |
 | :--- | :--- | :--- | :--- |
-| **Strom** | VCC (5V) | VBUS | VBUS |
-| **Display** | GND | GND | GND/13 |
+| **Strom** | VCC (5V) | VBUS | none |
+| **Display** | GND | GND | 13 |
 | **Display** | RST | **GPIO 5** | 8 |
 | **Display** | CS | **GPIO 12** | 9 |
 | **Display** | DC | **GPIO 33** | 10 |

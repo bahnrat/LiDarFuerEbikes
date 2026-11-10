@@ -30,17 +30,18 @@ Ein intelligentes Abstands-Warnsystem basierend auf dem **ESP32-S2 Mini**, dem *
 
 Das Layout wurde für eine optimale, kreuzungsfreie Leitungsführung auf zwei Layern (Top/Bottom) optimiert, wobei ausschließlich die **äußeren Pinreihen** des S2 Mini genutzt werden.
 
-| Peripherie | Pin-Name | ESP32-S2 GPIO | Reihe / Layer |
+| Peripherie | Pin-Name | ESP32-S2 GPIO | PIN auf Leiterplatte |
 | :--- | :--- | :--- | :--- |
-| **Strom** | VCC (5V) / GND | VBUS / GND | Außenbahn |
-| **Display** | VCC / GND | 3V3 / GND | Außenbahn (Top) |
-| **Display** | RST | **GPIO 5** | Außenbahn (Links / Top) |
-| **Display** | CS | **GPIO 12** | Außenbahn (Links / Top) |
-| **Display** | DC | **GPIO 33** | Außenbahn (Rechts / Top) |
-| **Display** | SDA (MOSI) | **GPIO 37** | Außenbahn (Rechts / Top) |
-| **Display** | SCL (CLK) | **GPIO 39** | Außenbahn (Rechts / Top) |
-| **Lidar** | RX (Daten vom Sensor) | **GPIO 18** | Außenbahn (Links / Bottom) |
-| **Backup** | TX (Optional) | **GPIO 16** | Außenbahn (Links - *Freigehalten!*) |
+| **Strom** | VCC (5V) | VBUS | VBUS |
+| **Display** | GND | GND | 14 |
+| **Display** | RST | **GPIO 5** | 8 |
+| **Display** | CS | **GPIO 12** | 9 |
+| **Display** | DC | **GPIO 33** | 10 |
+| **Display** | SDA (MOSI) | **GPIO 37** | 11 |
+| **Display** | SCL (CLK) | **GPIO 39** | 12 |
+| **Display** | VCC 3,3V | **3V3** | 14 |
+| **Lidar** | RX (Daten vom Sensor) | **GPIO 18** | 
+| **Backup** | TX (Optional) | **GPIO 16** | 
 
 ---
 

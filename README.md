@@ -40,8 +40,8 @@ Das Layout wurde für eine optimale, kreuzungsfreie Leitungsführung auf zwei La
 | **Display** | SDA (MOSI) | **GPIO 37** | 11 |
 | **Display** | SCL (CLK) | **GPIO 39** | 12 |
 | **Display** | VCC 3,3V | **3V3** | 14 |
-| **Lidar** | RX (Daten vom Sensor) | **GPIO 18** | 
-| **Backup** | TX (Optional) | **GPIO 16** | 
+| **Lidar** | RX (Daten vom Sensor) | **GPIO 18** | 7 |
+| **Backup** | TX (Optional) | **GPIO 16** | 8 |
 | **RECOM** | 5V+ | VBUS | 1 |
 | **RECOM** | GND | GND | 2 |
 | **RECOM** | 12V+ | (Eingang) | 3 |

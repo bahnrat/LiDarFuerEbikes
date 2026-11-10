@@ -42,6 +42,13 @@ Das Layout wurde für eine optimale, kreuzungsfreie Leitungsführung auf zwei La
 | **Display** | VCC 3,3V | **3V3** | 14 |
 | **Lidar** | RX (Daten vom Sensor) | **GPIO 18** | 
 | **Backup** | TX (Optional) | **GPIO 16** | 
+| **RECOM** | 5V+ | VBUS | 1 |
+| **RECOM** | GND | GND | 2 |
+| **RECOM** | 12V+ | (Eingang) | 3 |
+| **STROM** | 12V+ | none | 4 |
+| **STROM** | 12V- | none | 5 |
+| **LiDar** | RX | none | 6 |
+| **LiDar** | TX | none | 7 |
 
 ---
 

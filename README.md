@@ -21,7 +21,7 @@ Ein intelligentes Abstands-Warnsystem basierend auf dem **ESP32-S2 Mini**, dem *
 - **Mikrocontroller:** Lolin ESP32-S2 Mini
 - **Lidar-Sensor:** Benewake TF02-Pro (UART-Version)
 - **Display:** GC9A01 (Rundes 1.28" TFT, SPI-Schnittstelle)
-- **Spannungsregler:** Recom-Modul (5V VBUS-Speisung für den Lidar)
+- **Spannungsregler:** ]Recom-Modul](https://www.voelkner.de/products/288579/RECOM-R-78E5.0-0.5-DC-DC-Wandler-Print-24-V-DC-5-V-DC-500mA-Anzahl-Ausgaenge-1-x-Inhalt.html) 
 - **Layout-Software:** Sprint-Layout 6.0 (`*.lay6`-Datei direkt im Repository)
 
 ---

@@ -1,4 +1,4 @@
-# 🚲 Anti-Collision Lidar Warning System (ESP32-S2)
+# 🚲 Anti-Collision Lidar Warning System (ESP32-S2 Mini [lolin])
 
 Ein intelligentes Abstands-Warnsystem basierend auf dem **ESP32-S2 Mini**, dem **Benewake TF02-Pro Lidar-Sensor** und einem runden **GC9A01 Farbdisplay**. Das System misst in Echtzeit den Abstand zu Hindernissen oder vorausfahrenden Fahrzeugen und zeigt diesen flackerfrei an.
 

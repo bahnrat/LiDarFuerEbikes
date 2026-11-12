@@ -2,7 +2,7 @@
 
 Ein intelligentes Abstands-Warnsystem basierend auf dem **ESP32-S2 Mini**, dem **Benewake TF02-Pro Lidar-Sensor** und einem runden **GC9A01 Farbdisplay**. Das System misst in Echtzeit den Abstand zu Hindernissen oder vorausfahrenden Fahrzeugen und zeigt diesen flackerfrei an.
 
-> **Status:** Phase 1 (Fahrrad-Rückwärtiger-Abstand) ist softwareseitig einsatzbereit, Platinen-Layout (2-lagig, RM 2,54mm) ist in Produktion. Phase 2 (Auto-Variante via OBDII) ist in der Konzeptionsphase.
+
 
 ---
 
